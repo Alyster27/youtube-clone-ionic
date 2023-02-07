@@ -1,0 +1,40 @@
+.button-bar {
+    display: flex;
+    overflow-x: scroll;
+
+    ion-button::part(native) {
+        padding: 15px;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.active {
+    --background: #4f4d4d;
+    --color: #fff;
+}
+
+.inactive {
+    --background: #edefef;
+    --color: var(--ion-color-primary);
+}
+
+ion-button {
+    --color: #fff;
+}
+
+.video {
+    position: relative;
+}
+
+.duration {
+    position: absolute;
+    right: 15px;
+    bottom: 85px;
+    font-weight: 500;
+    background: #000;
+    border-radius: 5px;
+    padding: 4px;
+}

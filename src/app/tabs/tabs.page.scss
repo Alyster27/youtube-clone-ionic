@@ -1,1 +1,11 @@
+ion-tab-bar {
+    --background: var(--ion-color-dark);
+}
 
+ion-tab-button {
+    --color: var(--ion-color-primary);
+
+    ion-icon {
+        --ionicon-stroke-width: 1em;
+    }
+}
